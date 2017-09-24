@@ -1,0 +1,274 @@
+.navbar .navbar-inner .nav > li.dropdown a, .navbar .navbar-inner .nav > li > a, .breadcrumb-nav ul.breadcrumb.style1 li {
+    transition:background 0.2s ease
+}
+*, p {
+	font-family:Roboto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:Roboto!important;
+}
+.breadcrumb-nav ul.breadcrumb.style1 li, .navbar, .navbar-inner, body.has_dock #dock, .navbar .nav-collapse.in.pull-left, .navbar .nav-collapse.in.pull-right, .nav-collapse {
+    background:#E22245;
+}
+.navbar .navbar-inner .nav li.dropdown.open > .dropdown-toggle, .navbar .navbar-inner .nav li.dropdown.active > .dropdown-toggle, .navbar .navbar-inner .nav li.dropdown.open.active > .dropdown-toggle, .navbar .navbar-inner .nav > li.dropdown a:hover, .navbar .navbar-inner .nav > li > a:hover, .navbar .navbar-inner .nav > li.dropdown a:focus, .navbar .navbar-inner .nav > li > a:focus, .navbar .navbar-inner .nav > li.dropdown .dropdown-menu li > a, .navbar .navbar-inner .usermenu .dropdown .dropdown-menu .fa, .course-content ul.ctopics li.section .content .toggle a.tc-medium, .bor .back-to-top, .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd, .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd.yui3-widget-hd, .bor {
+    background:#FFF!important;
+    color:#E22245!important;
+}
+.navbar .navbar-inner .brand {
+    font-weight:bold
+}
+body.has_dock #dock {
+    z-index: 1;
+    left:-40px;
+    transition:left 0.3s ease;
+    box-shadow:0 0px 40px rgba(0,0,0,0.40);
+}
+body.has_dock #dock:hover {
+    left:0px;
+}
+.navbar {
+    z-index:2!important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.breadcrumb-nav ul.breadcrumb.style1 li {
+    border:none!important;
+    border-radius:0px!important;
+    border-top-left-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+    border-right:1px solid white!important;
+    padding-left:0px!important;
+}
+.breadcrumb-nav ul.breadcrumb.style1 li:last-of-type {
+    padding-right:0px!important;
+}
+.breadcrumb-nav ul.breadcrumb.style1 li a {
+    margin-right:5px;
+    margin-left:5px!important;
+}
+.breadcrumb-nav ul.breadcrumb.style1 li:first-of-type {
+    border-top-left-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+}
+.breadcrumb-nav ul.breadcrumb.style1 li::before, .breadcrumb-nav ul.breadcrumb.style1 li::after {
+    display:none!important;
+}
+#region-main {
+    border-radius:0!important;
+    border:none!important;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding-top:10px;
+}
+.page-context-header .page-header-headings h1 {
+    top:30px!important;
+}
+.block {
+    border:none!important;
+    border-radius:0!important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#page-footer, #dock .dockedtitle, .navbar .navbar-inner .btn-navbar {
+    background:#FFF!important;
+    color:#000!important;
+    border:none!important;
+}
+#page-footer hr, #page-header.logo #socialnetworks, #page-header.logo #mobileapps, .navbar .navbar-inner .usermenu .dropdown .dropdown-menu hr.sep, .navbar .nav-collapse.in.pull-left, .navbar .nav-collapse.in.pull-right, .course-content ul.ctopics li.section .content .toggle a.tc-medium, .que .formulation, .path-mod-quiz .qnbutton.thispage .thispageholder, .que .info {
+    border:none!important;
+}
+#page-footer .themecredit, .cps_centre {
+    font-size:0px!important;
+}
+#page-footer .themecredit:after {
+    content:"Material Theme made by Chriso L., edited from Element Theme";
+    font-size:7pt!important;
+}
+::-webkit-scrollbar-track
+{
+	background-color: #FFF;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #E22245;
+}
+.navbar-inner .nav-collapse .nav > li > .dropdown-menu::before {
+    display:none!important;
+}
+#page-header.logo {
+    background:#FFF!important
+}
+#page-header #essentialicons button {
+    transition:all 0.2s ease;
+}
+.dropdown .dropdown-menu {
+    border:none!important;
+    border-radius:0;
+    animation:dropdown ease 0.2s;
+    margin-top:0!important;
+}
+.dropdown-menu::before, .dropdown-menu::after {
+    display:none!important;
+}
+@keyframes dropdown {
+  0% {
+    opacity:0;
+    transform:  translate(0px,-10px)  ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,0px)  ;
+  }
+}
+.navbar .navbar-inner .nav > li.dropdown .dropdown-menu li > a:hover {
+    background:#EEE!important
+} 
+#dock .dockedtitle {
+    border-radius:0!important;
+    margin-top:0!important;
+    border-top:1px solid #EEE!important;
+}
+@keyframes slide-right{
+  0% {
+    opacity:0;
+    transform:  translate(-10px,0px) ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,0px)  ;
+  }
+}
+body.has_dock #dockeditempanel .dockeditempanel_content {
+    animation:slide-right ease 0.2s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)	
+}
+.navbar .navbar-inner .btn-navbar .icon-bar {
+    background:#E22245;
+    box-shadow:none!important;
+}
+.navbar .navbar-inner .btn-navbar, .navbar .navbar-inner #custom_menu_activitystream .dropdown-menu, .navbar .navbar-inner #custom_menu_language .dropdown-menu, .dropdown-menu {
+    border-radius:0!important;
+}
+.dropdown .dropdown-menu {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)!important;
+}
+.course-content ul.ctopics li.section .content .toggle a.tc-medium {
+    margin:0!important;
+}
+.course-content ul li.section.main {
+    background:#fff;
+}
+.block *:link, .block *:visited, table td span *, table th span *, td p a span, .block .header .title > .fa, .breadcrumb-nav ul.breadcrumb.style1 li:hover a, div p span, #toggle-all .content .sectionbody h4 a.tc-medium, div a span, .breadcrumb-nav ul.breadcrumb.style1 li:first-of-type:hover a::before  {
+    color:#E22245!important;
+}
+#toggle-all .content .sectionbody h4 a.tc-medium {
+    background-image:none!important;
+    padding-left:0!important;
+}
+.nav-collapse {
+    border:none!important;
+    background:#E22245!important;
+}
+.navbar .navbar-inner .usermenu .dropdown img.userpicture {
+    position:absolute;
+	left:70px!important;
+    border:1px solid white!important;
+	border-radius:50%!important;
+    box-shadow:none!important;
+}
+body button, body .btn-default, body a.btn-default, body button.btn-cancel, body input.form-submit, body input[type="button"], body input[type="submit"], body input[type="reset"], body #notice .singlebutton + .singlebutton input, body .submit.buttons input[name="cancel"], body button:focus, body .btn-default:focus, body a.btn-default:focus, body button.btn-cancel:focus, body input.form-submit:focus, body input[type="button"]:focus, body input[type="submit"]:focus, body input[type="reset"]:focus, body #notice .singlebutton + .singlebutton input:focus, body .submit.buttons input[name="cancel"]:focus, body button:active, body .btn-default:active, body a.btn-default:active, body button.btn-cancel:active, body input.form-submit:active, body input[type="button"]:active, body input[type="submit"]:active, body input[type="reset"]:active, body #notice .singlebutton + .singlebutton input:active, body .submit.buttons input[name="cancel"]:active, body button.active, body .btn-default.active, body a.btn-default.active, body button.btn-cancel.active, body input.form-submit.active, body input[type="button"].active, body input[type="submit"].active, body input[type="reset"].active, body #notice .singlebutton + .singlebutton input.active, body .submit.buttons input[name="cancel"].active, body button.disabled, body .btn-default.disabled, body a.btn-default.disabled, body button.btn-cancel.disabled, body input.form-submit.disabled, body input[type="button"].disabled, body input[type="submit"].disabled, body input[type="reset"].disabled, body #notice .singlebutton + .singlebutton input.disabled, body .submit.buttons input[name="cancel"].disabled, body button[disabled], body .btn-default[disabled], body a.btn-default[disabled], body button.btn-cancel[disabled], body input.form-submit[disabled], body input[type="button"][disabled], body input[type="submit"][disabled], body input[type="reset"][disabled], body #notice .singlebutton + .singlebutton input[disabled], body .submit.buttons input[name="cancel"][disabled], .path-mod-quiz .qnbutton, .block_login .content .footer div a {
+    background:#FFF!important;
+    border:none!important;
+    color:#E22245!important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)!important;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+ body button.btn-cancel:hover, body input.form-submit:hover, body input[type="button"]:hover, body input[type="submit"]:hover, body input[type="reset"]:hover, body #notice .singlebutton + .singlebutton input:hover, body .submit.buttons input[name="cancel"]:hover, body button:focus, body .btn-default:focus, body a.btn-default:focus, body button.btn-cancel:focus, body input.form-submit:focus, body input[type="button"]:focus, body input[type="submit"]:focus, body input[type="reset"]:focus, body #notice .singlebutton + .singlebutton input:focus, body .submit.buttons input[name="cancel"]:focus, .path-mod-quiz .qnbutton:hover, .block_login .content .footer div a:hover, .block_login .content .footer div a:focus {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)!important;
+    text-shadow:none!important;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+body button.ios:focus, body button.ios {
+     background:black!important;
+     position:absolute;
+     top:15px;
+     right:170px;
+}
+body button.android:focus, body button.android {
+     background:#A4C639!important;
+     position:absolute;
+     top:15px;
+     right:136px;
+}
+body button.twitter:focus, body button.twitter {
+    background:#1DA1F2!important;
+     position:absolute;
+     top:15px;
+	 right:102px;
+}
+body button.facebook:focus, body button.facebook {
+    background:#3b5998!important;
+     position:absolute;
+     top:15px;
+     right:68px;
+}
+body button.youtube:focus, body button.youtube {
+    background:red!important;
+     position:absolute;
+     top:15px;
+     right:34px;
+}
+body button.website:focus, body button.website {
+    background:#E22245!important;
+     position:absolute;
+     top:15px;
+     right:0px;
+}
+ul.socials {
+    top:15px!important;
+}
+#socialheading {
+    display:none!important;
+}
+.back-to-top {
+    background:#FFF!important;
+    opacity:1!important;
+    transition:opacity 0.2s ease;
+}
+.que .formulation {
+    background:#FFF;
+}
+input[type="text"], input[type="password"], .formulation select {
+	border: none!important;
+    border-radius:0!important;
+    box-shadow:none!important;
+    height:15px;
+    font-family:Roboto!important;
+    font-size:13px;
+    font-weight:400;
+    color:#333!important;
+	padding: 7px 5px;
+    background: white no-repeat;
+    background-image: linear-gradient(to bottom, #F22245, #F22245), linear-gradient(to bottom, silver, silver);
+  	background-size: 0 2px, 100% 2px;
+  	background-position: 50% 100%, 50% 100%;
+    transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+input[type="text"]:focus, input[type="password"]:focus, .formulation select:focus {
+	background-size: 100% 2px, 100% 2px;
+	outline: none;	
+}
+.moodle-dialogue-base .moodle-dialogue-wrap {
+    border-radius:0!important;
+    border:none!important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+button.yui3-button.closebutton, button.yui3-button.closebutton:hover {
+    display:none!important;
+}
+.path-mod-quiz .qnbutton.thispage {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)!important;
+}
