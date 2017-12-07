@@ -16,7 +16,7 @@
 /*@import url(https://rawgit.com/MGRich/DockedSettings/master/code.css);*/
 @import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/RadialStatus/import/RadialStatus.css);/*.status-text {
     opacity:1;
-    color:#fff !important;
+    color:#fff !importanZ   t;
     top:35px;
     left:400px
 }
@@ -149,7 +149,11 @@
     transition: none !important;
     image-rendering: pixelated;
     position: relative;
-    top:-1px
+    top:0px
+}
+.message-group h2 {
+    position: relative;
+    left:3px;
 }
 .btn-quote {
     background-size:80% !important;
@@ -182,7 +186,7 @@
 }
 .message-group .avatar-large {
     left:20px;
-    top:7px;
+    top:10px;
 }
 .message-group .comment {
     position: relative;
@@ -191,10 +195,127 @@
 .comment .message.first {
     position: relative;
     left:50px;
+    margin-top: 2px;
+}
+.comment .message.first .markup {
+    position: relative;
+    top:1px;
 }
 .comment .message:nth-of-type(2) {
-    margin-top:3px;
+    margin-top:5px;
 }
+.theme-dark .channel-members .member {
+    margin-bottom:4px;  
+}
+.message-group h2 .timestamp {
+    color:var(--white8) !important; 
+}
+.markup {
+    color:var(--white9) !important;
+}
+/*.guilds-wrapper.folderopen {
+    position: relative;
+    width:70px !important;
+    /*left:-70px;*/
+/*}
+.guilds-wrapper.folderopen:hover .foldercontainer {
+    left:70px !important;
+}
+.foldercontainer {
+    height:100%;
+    background:var(--lvl1);
+    left:0px !important;
+} */
+
+.member-status-online .bot-tag, .member-status-online .member-inner .member-activity-text, .channel-members .member.member-status-online .member-activity-icon-foreground {color: #66FF00 !important; fill: #66FF00}
+.member-status-idle .bot-tag, .member-status-idle .member-inner .member-activity-text, .channel-members .member.member-status-idle .member-activity-icon-foreground {color: #FFA500 !important; fill: #FFA500}
+.member-status-dnd .bot-tag, .member-status-dnd .member-inner .member-activity-text, .channel-members .member.member-status-dnd .member-activity-icon-foreground {color: #FF0000 !important; fill: #FF0000}
+.member-status-offline .bot-tag, .member-status-offline .member-inner .member-activity-text, .channel-members .member.member-status-offline .member-activity-icon-foreground {color: #FFFFFF !important; fill: #FFFFFF}
+.private-channels .channel .channel-name, .private-channels .channel .channel-activity-text {
+    opacity: 1 !important;
+}
+.member-status-online .member-inner .member-username {color: #66FF00;}
+.member-status-idle .member-inner .member-username {color: #FFA500;}
+.member-status-dnd .member-inner .member-username {color: #FF0000}
+.private-channels .channel .channel-activity-text {
+    color:var(--white8)
+}
+.title-qAcLxz .status, .titleCall-3X0yGQ .status {
+    background: var(--rs-offline-color)
+}
+.channel-members .bot-tag {
+    background: transparent !important;
+}
+.card-2WxYqG {
+    height:81px;
+    transition: height .2s ease !important;
+}
+.card-2WxYqG:hover {
+    height:initial;
+    transition: height .2s ease !important;
+}
+.snowfall-flakes {
+    z-index: 2147483646 !important;
+    /*background: url(https://i.imgur.com/4baap7c.png) no-repeat center !important;
+    background-color: none !important;  */
+    /* background-image: url(https://img.clipartxtras.com/230b5d1747343254dc4d2a38024000b5_white-snowflake-gif-image-tips-white-snowflake-clipart-png_572-640.png) !important; */
+    transform: scale(.8); 
+    /*background-size: contain; */
+    opacity:0.7;
+}
+.typeWindows-15E0Ys:before {
+    content:"";
+    position: absolute;
+    width:100%;
+    height:30px;
+    background-image: url(https://i.imgur.com/1Apj8zo.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    z-index: 2147483646 !important;
+    bottom:-7px;
+    left:0;
+    user-select: none;
+    pointer-events: none;
+    opacity:1;
+}
+.message-group{
+    padding: 0 0 !important;
+    border-radius: 0 !important;
+}
+.comment {
+    padding: 0 7px 3px 10px !important;
+    transition: none !important;
+    border-radius: 0 !important;
+}
+.message-group:last-child .comment:last-of-type, .message-group.has-divider .comment:last-of-type {
+    padding: 0 7px 10px 10px !important;
+    border-bottom-left-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
+}
+.message-group:first-child .comment:first-of-type, .divider+.message-group .comment {
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+}
+/*.channel-members {
+    width: 300px !important;
+    max-width: 300px !important;
+}
+.channel-members-wrap {
+    min-width: 300px !important;
+}
+/* CRIIMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAH */
+/*:root {
+    --lvl1: #b10000;
+    --lvl2: #009700;
+    --lvl25: #7e0000;
+    --lvl3: #005800;
+}
+.textArea-20yzAH {
+    background: none !important;
+}
+.guilds-wrapper .guild.guilds-add::before {
+    background: linear-gradient(to bottom, rgba(177, 0, 0, 0) 0%, rgb(177, 0, 0) 60%, rgb(177, 0, 0) 100%);
+}*/
 /*.guilds-wrapper .guild.guilds-add {
     top:calc(100% + 50px);
 }
@@ -232,10 +353,10 @@
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
-    animation: toast-up 300ms ease;
+    animation: dm-up 300ms ease;
     transform: translateY(-10px);
 }
-@keyframes toast-up {
+@keyframes dm-up {
     from {
         transform: translateY(0);
         opacity: 0;
@@ -266,7 +387,7 @@
     pointer-events: none;
 }*/
 :root {
-    --accent-color:#0004ff!important;
+    --accent-color:#00db1d!important;
     --notification-color:#FF0000!important;
     --important-notification-color:#FF0000!important;
     --tm-accent: 67, 181, 129; /* R, G, B of accent-color */
@@ -296,8 +417,8 @@
     --dt-status-anim: 1;
     --btb-icon-stroke:white; /* for canary */
     --btb-discord-color:white; /* for canary */
-    --btb-color:var(--lvl1);
-    --btb-border:var(--lvl2);
+    --btb-color:var(--lvl2);
+    --btb-border:var(--lvl3);
     --btb-light:1; /* 1 for dark, 0 for light, NOTE: THE BACKGROUNDS BREAK WITH THIS SET TO 0. will do nothing in canary, as replaced by icon stroke and discord color*/
     --btb-close-hover:#E81123;
     --btb-close-active:#F1707A;
@@ -798,9 +919,9 @@
 .winButtonMinMax-bT_gQ1 svg[name="TitleBarMaximize"] rect {
     stroke:var(--btb-icon-stroke)!important;
 }
-.message-group .message.first .old-h2, .edit-first-message .old-h2, .channels-wrap .wrapperDefault-1Dl4SS, .channels-wrap .wrapperHovered-1KDCyZ, .channel-members h2::after, .private-channels header::after {
+/*.message-group .message.first .old-h2, .edit-first-message .old-h2, .channels-wrap .wrapperDefault-1Dl4SS, .channels-wrap .wrapperHovered-1KDCyZ, .channel-members h2::after, .private-channels header::after {
     border-image: linear-gradient(to right, var(--dt-accent-color), var(--dt-accent-color)) 1!important;
-}
+}*/
 /*.winButton-U7zAqI {
     transition: .2s!important;
     will-change: background-color!important;
